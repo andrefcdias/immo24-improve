@@ -1,0 +1,19 @@
+{
+  "name": "immo24-improved",
+  "version": "1.0.0",
+  "description": "Improve immobilienscout24.de by allowing all text to be translated.",
+  "scripts": {
+    "build": "esbuild src/* --outdir=public/scripts",
+    "dev": "esbuild src/* --outdir=public/scripts --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrefcdias/immo24-improve.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chrome-types": "^0.1.203",
+    "esbuild": "0.18.0"
+  }
+}
